@@ -9,22 +9,22 @@
 
 .manipulator#small {
 	right:300px;
-	background-color:orange;	
+	background-color:rgba(255,0,0,.25);
 }
 
 .manipulator#medium {
 	right:200px;
-	background-color:green;	
+	background-color:rgba(255,0,0,.5);
 }
 
 .manipulator#large {
 	right:100px;
-	background-color:blue;	
+	background-color:rgba(255,0,0,.75);
 }
 
 .manipulator#xlarge {
 	right:0;
-	background-color:yellow;	
+	background-color:rgba(255,0,0,.1);	
 }
 
 body.small {
@@ -39,4 +39,3 @@ body.large {
 body.xlarge {
 	width:100% !important;
 }
-

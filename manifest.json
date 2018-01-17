@@ -1,7 +1,7 @@
 {
   "name": "A demo",
   "description": "An example chrome extension that injects buttons using Javascript",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "content_scripts": [
     {
       "matches": ["https://*/*"],
