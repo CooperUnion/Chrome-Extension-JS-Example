@@ -24,8 +24,15 @@
 
 .manipulator#xlarge {
 	right:0;
-	background-color:rgba(255,0,0,1);	
+	background-color:rgba(255,0,0,1);
 }
+
+.manipulator img {
+	width:100px;
+	height:auto;
+	opacity:.5;
+}
+
 
 body.small {
 	width:320px !important;

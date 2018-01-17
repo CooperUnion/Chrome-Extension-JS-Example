@@ -1,7 +1,7 @@
 {
   "name": "A demo",
   "description": "An example chrome extension that injects buttons using Javascript",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "content_scripts": [
     {
       "matches": ["https://*/*"],
@@ -11,8 +11,11 @@
   ],
   "manifest_version": 2,
   "icons":{
-  	"16": "16.png",
-    "48": "48.png",
-    "128": "128.png"
-  }
+  	"16": "images/16.png",
+    "48": "images/48.png",
+    "128": "images/128.png"
+  },
+  "web_accessible_resources":[
+    "images/*.png"
+  ]
 }

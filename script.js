@@ -1,6 +1,5 @@
 window.onload = function(){
 
-
 	var buttons = ["small","medium","large","xlarge"];
 
 	buttons.forEach(function(name, index){
@@ -22,5 +21,10 @@ window.onload = function(){
 		});
 
 	});
+
+	document.querySelector(`.manipulator#${buttons[0]}`).insertAdjacentHTML(
+		"beforeend",
+		`<img src=${chrome.runtime.getURL("images/128.png")} />`
+	);
 
 };
